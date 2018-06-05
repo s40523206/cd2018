@@ -1195,7 +1195,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 &lt;div id="onegear_div" width="800" height="20"&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;input id="n" value="19"&gt;&lt;/input&gt;&lt;br&gt;
+&lt;p&gt;&lt;input id="n" value="6"&gt;&lt;/input&gt;&lt;br&gt;
 &lt;button id="button"&gt;Set Number of Gears&lt;/button&gt;&lt;/p&gt;
 &lt;!-- 以下實際利用  Brython 繪圖--&gt;
 
@@ -1323,7 +1323,7 @@ def setgearnumber(e):
     if doc["n"].value.isdigit():
         n1 = int(doc["n"].value)
     else:
-        n1= 19
+        n1= 6
     # 設定齒輪參數
     x = (canvas.width)/2
     y = (canvas.height)/2
@@ -1356,7 +1356,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 &lt;div id="onegear_div" width="800" height="20"&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;input id="n" value="19"&gt;&lt;/input&gt;&lt;br /&gt;
+&lt;p&gt;&lt;input id="n" value="6"&gt;&lt;/input&gt;&lt;br /&gt;
 &lt;button id="button"&gt;Set Number of Gears&lt;/button&gt;&lt;/p&gt;
 &lt;!-- 以下實際利用  Brython 繪圖--&gt;
 
@@ -1484,7 +1484,7 @@ def setgearnumber(e):
     if doc["n"].value.isdigit():
         n1 = int(doc["n"].value)
     else:
-        n1= 19
+        n1= 6
     # 設定齒輪參數
     x = (canvas.width)/2
     y = (canvas.height)/2
@@ -1530,7 +1530,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 &lt;div id="cango_gear_div" width="800" height="20"&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;input id="cn" value="19"&gt;&lt;/input&gt;&lt;br /&gt;
+&lt;p&gt;&lt;input id="cn" value="6"&gt;&lt;/input&gt;&lt;br /&gt;
 &lt;button id="button_a"&gt;Set Number of Gears&lt;/button&gt;&lt;/p&gt;
 &lt;script type="text/python"&gt;
 # 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
@@ -1567,7 +1567,7 @@ def draw(e):
     if doc["cn"].value.isdigit():
         cn1 = int(doc["cn"].value)
     else:
-        cn1= 19
+        cn1= 6
 # pa 為壓力角
     pa = 25
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
@@ -1645,7 +1645,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 &lt;div id="cango_gear_div" width="800" height="20"&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;input id="cn" value="19"&gt;&lt;/input&gt;&lt;br /&gt;
+&lt;p&gt;&lt;input id="cn" value="6"&gt;&lt;/input&gt;&lt;br /&gt;
 &lt;button id="button_a"&gt;Set Number of Gears&lt;/button&gt;&lt;/p&gt;
 &lt;script type="text/python"&gt;
 # 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
@@ -1682,7 +1682,7 @@ def draw(e):
     if doc["cn"].value.isdigit():
         cn1 = int(doc["cn"].value)
     else:
-        cn1= 19
+        cn1= 6
 # pa 為壓力角
     pa = 25
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
